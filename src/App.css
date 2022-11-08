@@ -1,3 +1,11 @@
 .App {
   text-align: center;
 }
+
+header {
+  background-color: lightslategray;
+  border-bottom: slategray 3px solid;
+  padding: 10px;
+  box-sizing: content-box;
+  margin-bottom: 10px;
+}
