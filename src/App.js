@@ -1,24 +1,31 @@
+// Dependencies
 import React from 'react';
-import logo from './logo.svg';
+import { useState, useEffect } from 'react';
+import getStories from './api-calls';
+
+// Components
+import Section from './components/Section/Section';
+
+// Styles
 import './App.css';
 
+
 function App() {
+
+  const [stories, setStories] = useState([])
+
+  useEffect(() => {
+    const artsData = getStories("arts")
+    // console.log({artsData})
+    // debugger
+    artsData.then( data => {
+      setStories(data.results)
+    })
+  }, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Section name="arts"/>
     </div>
   );
 }
