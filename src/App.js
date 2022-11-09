@@ -1,29 +1,32 @@
 // Dependencies
 import React from 'react';
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
+import { Routes, Route, Link, NavLink } from "react-router-dom"
 
 // Components
-import Section from './components/Section/Section';
+import Home from './components/Home/Home';
+import Article from './components/Article/Article';
 
 // Styles
 import './App.css';
-
+import {getSection, getArticle} from './api-calls';
 
 function App() {
 
-  const sectionNames = ["arts", "science", "home", "us", "world"]
-  const sections = sectionNames.map( (name) => {
-    return (<Section name={name}/>)
-  })
+  // const sectionNames = ["arts", "science", "home", "us", "world"]
+  // const sections = sectionNames.map( (name) => {
+  //   return (<Section name={name}/>)
+  // })
 
   return (
-    <div className="App">
-      <header>
-        <h1>Times</h1>
-      </header>
-      <Section name="arts"/>
-      <Section name="science"/>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/article/:articleID" element={<Article />} loader={ ({ params }) => {
+        let story;
+        getSection()
+        return story;
+      }}/>
+    </Routes>
   );
 }
 

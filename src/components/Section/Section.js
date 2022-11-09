@@ -1,10 +1,14 @@
-// Dependencies
+// External Dependencies
 import React from 'react';
 import { useState, useEffect } from 'react';
+import { Switch, Route, Link, NavLink } from "react-router-dom"
+
+// Internal Dependencies
 import utils from '../../utils';
-import getStories from '../../api-calls';
+import {getSection, getArticle} from '../../api-calls';
 
 // Components
+import Abstract from "../Abstract/Abstract"
 
 // Styles
 import './Section.css';
@@ -16,7 +20,7 @@ function Section(props) {
   const [topStory, setTopStory] = useState()
   
   useEffect(() => {
-    const data = getStories(name)
+    const data = getSection(name)
     // console.log({data})
     // debugger
     data.then( data => {
@@ -30,13 +34,13 @@ function Section(props) {
 
   return (
     <div className="section" id={name}>
-      <h1>{utils.capitalize(name)}</h1>
+      <Link to="/section/arts">
+        <h1>{utils.capitalize(name)}</h1>
+      </Link>
       { topStory && (
-          <article className="">
-            <img src={topStory.multimedia[0].url} height="353" width = "512"></img>
-            <h2>{topStory.title}</h2>
-            <p>{topStory.abstract}</p>
-          </article>
+        <Link to={"/article/" + topStory.uri}>
+          <Abstract story={topStory}/>
+        </Link>
         )
       }
     </div>
