@@ -1,0 +1,11 @@
+.section {
+  margin-bottom: 20px;
+}
+
+.section .p, .section h1, .section h2 {
+  padding: 10px;
+}
+
+.section img {
+  border-radius: 15px;
+}
