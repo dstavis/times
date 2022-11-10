@@ -6,6 +6,8 @@ import { Routes, Route, Link, NavLink } from "react-router-dom"
 // Components
 import Home from './components/Home/Home';
 import Article from './components/Article/Article';
+import Header from './components/Header/Header';
+import Section from './components/Section/Section';
 
 // Styles
 import './App.css';
@@ -19,10 +21,14 @@ function App() {
   // })
 
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/article/:articleURI" element={<Article />} />
-    </Routes>
+    < >
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/article/:articleURI" element={<Article />} />
+        <Route path="/section/:sectionName" element={<Section />} />
+      </Routes>
+    </>
   );
 }
 

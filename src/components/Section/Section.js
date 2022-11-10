@@ -1,7 +1,7 @@
 // External Dependencies
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { Switch, Route, Link, NavLink } from "react-router-dom"
+import { Switch, Route, Link, NavLink, useParams } from "react-router-dom"
 
 // Internal Dependencies
 import utils from '../../utils';
@@ -15,7 +15,11 @@ import './Section.css';
 
 
 function Section(props) {
-  const {name} = props
+  let name = useParams().sectionName
+  if(props.name) {
+    name = props.name
+  }
+  
   const [stories, setStories] = useState([])
   const [topStory, setTopStory] = useState()
   

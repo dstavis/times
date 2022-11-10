@@ -17,9 +17,6 @@ function Home() {
 
   return (    
     <div className="home">
-      <header>
-        <h1>Times</h1>
-      </header>
       {/* TODO: Replace these hardcoded sections with programmatically generated list of all sections */}
       <Section name="arts"/>
       <Section name="science"/>
