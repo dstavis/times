@@ -2,9 +2,6 @@ const apiKey = "api-key=" + process.env.REACT_APP_TIMES_API_KEY
 const sectionURLBase = "https://api.nytimes.com/svc/topstories/v2"
 const articleURLBase = `https://api.nytimes.com/svc/search/v2/articlesearch.json?fq=uri:`
 
-// `https://api.nytimes.com/svc/search/v2/articlesearch.json?fq=uri:("c0580750-0bd0-54fb-8012-14dda69530ef")&api-key=wxKuQsYXxjUoKeduPobb0vjPYZQdUtPX`
-
-
 const getSection = (section) => {
   const sectionURL = sectionURLBase + `/${section}.json?` + apiKey
   try {

@@ -25,8 +25,6 @@ function Section(props) {
   
   useEffect(() => {
     const data = getSection(name)
-    // console.log({data})
-    // debugger
     data.then( data => {
       setStories(data.results)
     })
@@ -47,6 +45,7 @@ function Section(props) {
         </Link>
         )
       }
+      {/* TODO: If this the home page, just do Top Story. if this is the section page, do all stories. */}
     </div>
   );
 }

@@ -19,6 +19,9 @@ function Header() {
         <Link to="/section/arts">
           Arts
         </Link>
+        <Link to="/section/business">
+          Business
+        </Link>
       </nav>
     </header>
   );

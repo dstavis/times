@@ -17,9 +17,10 @@ function Home() {
 
   return (
     <div className="home">
+      <h1> Top stories by section </h1>
       {/* TODO: Replace these hardcoded sections with programmatically generated list of all sections */}
       <Section name="arts"/>
-      <Section name="science"/>
+      <Section name="business"/>
     </div>
   );
 }
