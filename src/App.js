@@ -21,14 +21,16 @@ function App() {
   // })
 
   return (
-    < >
+    <div className='App'>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/article/:articleURI" element={<Article />} />
-        <Route path="/section/:sectionName" element={<Section />} />
-      </Routes>
-    </>
+      <section className='body'>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/article/:articleURI" element={<Article />} />
+          <Route path="/section/:sectionName" element={<Section />} />
+        </Routes>
+      </section>
+    </div>
   );
 }
 

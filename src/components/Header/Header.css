@@ -1,3 +1,8 @@
 header {
   text-align: center;
+
+  background-color: rgb(151, 167, 182);
+  border-bottom: lightgrey 3px solid;
+  padding: 10px;
+  box-sizing: content-box;
 }

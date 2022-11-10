@@ -15,7 +15,7 @@ function Home() {
   //   return (<Section name={name}/>)
   // })
 
-  return (    
+  return (
     <div className="home">
       {/* TODO: Replace these hardcoded sections with programmatically generated list of all sections */}
       <Section name="arts"/>
