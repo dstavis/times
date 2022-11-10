@@ -21,11 +21,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/article/:articleID" element={<Article />} loader={ ({ params }) => {
-        let story;
-        getSection()
-        return story;
-      }}/>
+      <Route path="/article/:articleURI" element={<Article />} />
     </Routes>
   );
 }

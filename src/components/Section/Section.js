@@ -38,7 +38,7 @@ function Section(props) {
         <h1>{utils.capitalize(name)}</h1>
       </Link>
       { topStory && (
-        <Link to={"/article/" + topStory.uri}>
+        <Link to={"/article/" + utils.extractURI(topStory.uri)}>
           <Abstract story={topStory}/>
         </Link>
         )
