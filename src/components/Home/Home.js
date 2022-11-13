@@ -8,17 +8,14 @@ import Section from '../Section/Section';
 // Styles
 import './Home.css';
 
-function Home() {
-
-  // const sectionNames = ["arts", "science", "home", "us", "world"]
-  // const sections = sectionNames.map( (name) => {
-  //   return (<Section name={name}/>)
-  // })
+function Home(props) {
+  const {sectionNames} = props
 
   return (
     <div className="home">
       <h1> Top stories by section </h1>
       {/* TODO: Replace these hardcoded sections with programmatically generated list of all sections */}
+      {/* {sections} */}
       <Section name="arts"/>
       <Section name="business"/>
     </div>

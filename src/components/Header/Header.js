@@ -8,20 +8,30 @@ import { Link, NavLink } from "react-router-dom"
 // Styles
 import './Header.css';
 
-function Header() {
+function Header(props) {
+  const {sectionNames} = props
+
+  const sections = sectionNames.map( (sectionName) => {
+    return (<Link to={`/section/${sectionName}`}>
+        {sectionName}
+    </Link>)
+  } )
+
 
   return (    
     <header>
       <Link to="/">
         <h1>Times</h1>
       </Link>
+
       <nav>
-        <Link to="/section/arts">
+        {sections}
+        {/* <Link to="/section/arts">
           Arts
         </Link>
         <Link to="/section/business">
           Business
-        </Link>
+        </Link> */}
       </nav>
     </header>
   );

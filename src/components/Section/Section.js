@@ -34,17 +34,20 @@ function Section(props) {
     stories && setTopStory(stories[0])
   }, [stories])
 
+  const mappedStories = stories.map( (storyData) => {
+        return (
+          <Link to={"/article/" + utils.extractURI(storyData.uri)}>
+            <Abstract story={storyData}/>
+          </Link>
+        )
+  })
+
   return (
     <div className="section" id={name}>
       <Link to="/section/arts">
         <h1>{utils.capitalize(name)}</h1>
       </Link>
-      { topStory && (
-        <Link to={"/article/" + utils.extractURI(topStory.uri)}>
-          <Abstract story={topStory}/>
-        </Link>
-        )
-      }
+      { mappedStories }
       {/* TODO: If this the home page, just do Top Story. if this is the section page, do all stories. */}
     </div>
   );
