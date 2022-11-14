@@ -1,6 +1,5 @@
 // Dependencies
 import React from 'react';
-import { Routes, Route, Link, NavLink } from "react-router-dom"
 
 // Components
 import Section from '../Section/Section';
