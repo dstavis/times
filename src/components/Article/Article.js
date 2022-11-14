@@ -2,7 +2,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { useParams } from "react-router-dom"
-import { StorableRequest } from 'workbox-background-sync';
 
 import { getArticle } from '../../api-calls';
 import utils from '../../utils';
@@ -12,7 +11,6 @@ import utils from '../../utils';
 
 // Styles
 import './Article.css';
-
 
 function Article() {
   const [story, setStory] = useState()
@@ -33,7 +31,7 @@ function Article() {
     console.log({story})
   }, [story])
 
-  let output = (<h1> Loading or no article found </h1>)
+  let output = (<h1> Loading... </h1>)
 
   if (story) {
     output = (<article className="article">

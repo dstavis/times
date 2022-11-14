@@ -26,12 +26,6 @@ function Header(props) {
 
       <nav>
         {sections}
-        {/* <Link to="/section/arts">
-          Arts
-        </Link>
-        <Link to="/section/business">
-          Business
-        </Link> */}
       </nav>
     </header>
   );

@@ -1,6 +1,6 @@
 // Dependencies
 import React from 'react';
-import { Routes, Route, Link, NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 // Components
 
@@ -13,7 +13,7 @@ function Error() {
     <div className="error">
       <br/>
       <h1>
-        404 - No page at this URL. Check again?
+        404 - No page at this URL. <Link to="/">Go home?</Link>
       </h1>
     </div>
   );

@@ -1,6 +1,5 @@
 // Dependencies
 import React from 'react';
-// import utils from '../../utils';
 
 // Components
 
@@ -17,7 +16,7 @@ function Abstract(props) {
       <article className="abstract">
         <img src={image.url} height="353" width = "512" alt={image.caption}></img>
         <h2>{story.title}</h2>
-        {/* <p>{story.abstract}</p> */}
+        <p>{story.abstract}</p>
       </article>
     )
   }

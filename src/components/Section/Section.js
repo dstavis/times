@@ -1,11 +1,11 @@
 // External Dependencies
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { Switch, Route, Link, NavLink, useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 
 // Internal Dependencies
 import utils from '../../utils';
-import {getSection, getArticle} from '../../api-calls';
+import {getSection} from '../../api-calls';
 
 // Components
 import Abstract from "../Abstract/Abstract"
@@ -21,7 +21,6 @@ function Section(props) {
   }
   
   const [stories, setStories] = useState([])
-  const [topStory, setTopStory] = useState()
   
   useEffect(() => {
     const data = getSection(name)
@@ -29,10 +28,6 @@ function Section(props) {
       setStories(data.results)
     })
   }, [])
-
-  useEffect( () => {
-    stories && setTopStory(stories[0])
-  }, [stories])
 
   const mappedStories = stories.map( (storyData) => {
         return (
@@ -48,7 +43,6 @@ function Section(props) {
         <h1>{utils.capitalize(name)}</h1>
       </Link>
       { mappedStories }
-      {/* TODO: If this the home page, just do Top Story. if this is the section page, do all stories. */}
     </div>
   );
 }
