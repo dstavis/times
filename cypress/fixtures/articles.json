@@ -1,0 +1,200 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2022 The New York Times Company. All Rights Reserved.",
+  "section": "Arts",
+  "last_updated": "2022-11-14T13:23:15-05:00",
+  "num_results": 3,
+  "results": [
+    {
+      "section": "arts",
+      "subsection": "design",
+      "title": "Art Tells New Jersey Stories at Newark’s New Terminal A",
+      "abstract": "Permanent public artworks by Layqa Nuna Yawar and Karyn Olivier offer airport travelers different views of the Garden State.",
+      "url": "https://www.nytimes.com/2022/11/14/arts/design/art-newark-airport.html",
+      "uri": "nyt://article/fb65a49c-945c-5c44-aea2-1583bbe357b3",
+      "byline": "By Hilarie M. Sheets",
+      "item_type": "Article",
+      "updated_date": "2022-11-14T12:29:28-05:00",
+      "created_date": "2022-11-14T10:00:10-05:00",
+      "published_date": "2022-11-14T10:00:10-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Airports",
+        "Sculpture",
+        "Murals"
+      ],
+      "org_facet": [
+        "Newark Liberty International Airport (NJ)",
+        "New Jersey State Council on the Arts",
+        "Queens Museum",
+        "Public Art Fund"
+      ],
+      "per_facet": [
+        "Olivier, Karyn",
+        "Yawar, Layqa Nuna",
+        "Baume, Nicholas"
+      ],
+      "geo_facet": [
+        "Newark (NJ)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/11/14/arts/14newark-art2/merlin_216464202_d8b14cfb-524c-4a8d-94f2-1722ebf477fc-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A view of the artist Layqa Nuna Yawar’s mural “Between the Future Past.”",
+          "copyright": "Zack DeZon for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/11/14/arts/14newark-art2/14newark-art2-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A view of the artist Layqa Nuna Yawar’s mural “Between the Future Past.”",
+          "copyright": "Zack DeZon for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/11/14/arts/14newark-art2/14newark-art2-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A view of the artist Layqa Nuna Yawar’s mural “Between the Future Past.”",
+          "copyright": "Zack DeZon for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3E7Tmke"
+    },
+    {
+      "section": "theater",
+      "subsection": "",
+      "title": "‘The Old Man \u0026 the Pool’ Review: Wading Into Mike Birbiglia’s Comfort Zone",
+      "abstract": "The comedian once again proves his virtuosity as a narrator, weaving a new harrowing tale in his latest Broadway show.",
+      "url": "https://www.nytimes.com/2022/11/13/theater/mike-birbiglia-the-old-man-the-pool-review.html",
+      "uri": "nyt://article/4ee41297-fac6-5fb5-8210-59f23ebd988e",
+      "byline": "By Elisabeth Vincentelli",
+      "item_type": "Article",
+      "updated_date": "2022-11-13T22:37:42-05:00",
+      "created_date": "2022-11-13T21:00:06-05:00",
+      "published_date": "2022-11-13T21:00:06-05:00",
+      "material_type_facet": "",
+      "kicker": "Critic’s pick",
+      "des_facet": [
+        "Theater",
+        "Theater (Broadway)",
+        "Comedy and Humor",
+        "Mike Birbiglia: The Old Man \u0026 the Pool (Play)"
+      ],
+      "org_facet": [
+        "Beaumont, Vivian, Theater"
+      ],
+      "per_facet": [
+        "Barrish, Seth",
+        "Boritt, Beowulf",
+        "Birbiglia, Mike"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/11/13/arts/13BIRBIGLIA-1/merlin_215972475_84039baf-90c8-4a5d-9528-5059e8412ca0-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1362,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Mike Birbiglia in his new solo show, “The Old Man \u0026 the Pool,” at the Vivian Beaumont Theater at Lincoln Center.",
+          "copyright": "Sara Krulwich/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/11/13/arts/13BIRBIGLIA-1/13BIRBIGLIA-1-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Mike Birbiglia in his new solo show, “The Old Man \u0026 the Pool,” at the Vivian Beaumont Theater at Lincoln Center.",
+          "copyright": "Sara Krulwich/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/11/13/arts/13BIRBIGLIA-1/13BIRBIGLIA-1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Mike Birbiglia in his new solo show, “The Old Man \u0026 the Pool,” at the Vivian Beaumont Theater at Lincoln Center.",
+          "copyright": "Sara Krulwich/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3WYbyFG"
+    },
+    {
+      "section": "arts",
+      "subsection": "design",
+      "title": "Paul G. Allen and the Art He Didn’t Sell",
+      "abstract": "“People should be able to see these pictures, and enjoy them, and appreciate them,” the Microsoft co-founder said. Will Allen’s cache of science fiction objects have a different future from the masterpieces auctioned last week?",
+      "url": "https://www.nytimes.com/2022/11/13/arts/design/paul-allen-collection-christies-maxfield-parrish.html",
+      "uri": "nyt://article/be750932-1e9d-5da4-826f-548a7363e52f",
+      "byline": "By Blake Gopnik",
+      "item_type": "Article",
+      "updated_date": "2022-11-14T11:49:44-05:00",
+      "created_date": "2022-11-13T10:47:50-05:00",
+      "published_date": "2022-11-13T10:47:50-05:00",
+      "material_type_facet": "",
+      "kicker": "Critic’s Notebook",
+      "des_facet": [
+        "Museums",
+        "Art",
+        "Auctions",
+        "Photography"
+      ],
+      "org_facet": [
+        "Christie's"
+      ],
+      "per_facet": [
+        "Allen, Paul G"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/11/13/arts/13paul-allen-sale-pierneef/merlin_216417648_340529bf-26b0-4254-a564-03e695dd4ce0-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1497,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "South Africa or a scene from Isaac Asimov? Jacob Hendrik Pierneef’s “Acacias with Kranskop Beyond, Limpopo Province,” from 1942, sold for $69,000 at the Paul G. Allen sale at Christie’s.",
+          "copyright": "via Christie's"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/11/13/arts/13paul-allen-sale-pierneef/13paul-allen-sale-pierneef-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "South Africa or a scene from Isaac Asimov? Jacob Hendrik Pierneef’s “Acacias with Kranskop Beyond, Limpopo Province,” from 1942, sold for $69,000 at the Paul G. Allen sale at Christie’s.",
+          "copyright": "via Christie's"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/11/13/arts/13paul-allen-sale-pierneef/13paul-allen-sale-pierneef-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "South Africa or a scene from Isaac Asimov? Jacob Hendrik Pierneef’s “Acacias with Kranskop Beyond, Limpopo Province,” from 1942, sold for $69,000 at the Paul G. Allen sale at Christie’s.",
+          "copyright": "via Christie's"
+        }
+      ],
+      "short_url": "https://nyti.ms/3TukNKN"
+    }
+  ]
+}
