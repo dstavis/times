@@ -107,6 +107,7 @@ David Stavis
 ## Sources
  - [NYTimes Top Stories API documentation](https://developer.nytimes.com/docs/top-stories-product/1/overview)
  - [NYTimes Article Search API documentation](https://developer.nytimes.com/docs/articlesearch-product/1/overview)
+ - [Project Board on Trello](https://trello.com/b/bj2bHnSe/times)
  
  - [MDN](http://developer.mozilla.org/en-US/)
  - [React JS](https://reactjs.org/)
