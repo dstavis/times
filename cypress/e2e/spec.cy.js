@@ -1,30 +1,3 @@
-const sectionNames = ["arts",
-  "automobiles",
-  "books",
-  "business",
-  "fashion",
-  "food",
-  "health",
-  "home",
-  "insider",
-  "magazine",
-  "movies",
-  "nyregion",
-  "obituaries",
-  "opinion",
-  "politics",
-  "realestate",
-  "science",
-  "sports",
-  "sundayreview",
-  "technology",
-  "theater",
-  "t-magazine",
-  "travel",
-  "upshot",
-  "us",
-  "world"]
-
 describe('top stories viewer', () => {
   beforeEach( () => {
     cy.intercept({
@@ -43,7 +16,7 @@ describe('top stories viewer', () => {
   })
 
   it('shows links to all sections', () => {
-    cy.get('nav > a').should("have.length", sectionNames.length)
+    cy.get('nav > a').should("have.length", 26)
   })
 
   it("takes the user to a section page when they click the link for it", () => {
