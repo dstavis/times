@@ -5,6 +5,7 @@
 - [Introduction](#introduction)
 - [Deployed Page](#deployed-page)
 - [Screenshots](#screenshots)
+- [Accessibility](#accessibility)
 - [Learning Goals](#learning-goals)
 - [Technologies and Tools](#technologies-and-tools)
 - [Project Reflections](#project-reflections)
@@ -21,17 +22,23 @@
 - Visit the published site [here](https://times-two.vercel.app/)
 
 ## Screenshots
-#### Home Page (top story from each section)
-<img width="600" alt="Home page" src="https://user-images.githubusercontent.com/3654471/201168934-1f41647d-10d1-4a98-9c67-162b32401fe8.png">
 
 #### Section Page (all stories from one section)
-<img width="600" alt="Section page" src="https://user-images.githubusercontent.com/3654471/201169419-1b7b0e8e-c319-41aa-837a-b0d50419a4e9.png">
+<img width="600" alt="Section page" src="https://user-images.githubusercontent.com/3654471/201723759-a27d431e-b7c5-4043-b459-b62c8bbafaf9.png">
+
 
 #### Article Detail Page (one article)
 <img width="600" alt="Article detail page" src="https://user-images.githubusercontent.com/3654471/201169010-f251fc7c-38b4-46ab-800d-fb220f5212f1.png">
 
+#### Error Handling
+<img width="600" alt="404 route" src="https://user-images.githubusercontent.com/3654471/201723599-1c2004c1-41ec-47da-a707-b382600c5a88.png">
+
+
 ----
 
+## Accessibility
+#### Lighthouse results
+![Lighthouse results](https://user-images.githubusercontent.com/3654471/201723420-b29f0ddb-4b14-4244-b303-dd0c5ffeddc4.png)
 
 ## Learning Goals
 Use the technology we have been working with over the course of the module to demonstrate mastery of the following:
