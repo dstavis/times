@@ -19,7 +19,7 @@
 - In a maximum of 8 hours over 3 days, I was tasked with building a React app that consumed the NY Times Top Stories API to display sections, articles, and the details of a specific article, to a user.
 
 ## Deployed Page
-- Visit the published site [here](https://times-two.vercel.app/)
+- Visit the published site [here](https://times-dstavis.vercel.app/)
 
 ## Screenshots
 
