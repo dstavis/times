@@ -8,16 +8,12 @@ import Section from '../Section/Section';
 // Styles
 import './Home.css';
 
-function Home(props) {
-  const {sectionNames} = props
+function Home() {
 
   return (
     <div className="home">
-      <h1> Top stories by section </h1>
-      {/* TODO: Replace these hardcoded sections with programmatically generated list of all sections */}
-      {/* {sections} */}
-      <Section name="arts"/>
-      <Section name="business"/>
+      <h1> Choose a section from the navbar to see other articles </h1>
+      <Section name="home"/>
     </div>
   );
 }
