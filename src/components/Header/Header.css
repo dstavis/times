@@ -1,0 +1,19 @@
+header {
+  text-align: center;
+
+  background-color: rgb(151, 167, 182);
+  border-bottom: lightgrey 3px solid;
+  padding: 10px;
+  box-sizing: content-box;
+}
+
+nav a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+nav {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
